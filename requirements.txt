@@ -9,7 +9,7 @@ requests==2.27.1
 scikit-learn==1.0.2
 scipy==1.8.0
 sklearn==0.0
-RandomForestRegressor
+mkl-service==2.4.0
 threadpoolctl==3.1.0
 urllib3==1.26.8
 Werkzeug==2.0.3
