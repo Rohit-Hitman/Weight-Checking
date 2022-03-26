@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Predictor</title>
+</head>
+<body style="background-color:#33476b">
+
+    <h1 align="center">BMI Predictor</h1>
+    <h1>
+    {% if result %}
+        <p>{{ result }}</p>
+    {% endif %}
+    </h1>
+
+    <form method="post" action="/predict">
+ <table align="center" >
+	<tr><td>
+        <label>Height in Feet</label><br>
+        <input type="text" name="height"><br><br>
+	</td></tr>
+	<tr><td>
+        <label>Weight</label><br>
+        <input type="text" name="weight"><br><br>
+	</td></tr>
+	<tr><td>
+        <label>Gender</label><br>
+        <input type="text" name="gender" placeholder="Female=0/ Male=1"><br><br>
+	</td></tr>
+	<tr><td>
+        <input type="submit" value="Predict"><br><br>
+	</td></tr>
+</table>
+  </form>
+
+</body>
+</html>

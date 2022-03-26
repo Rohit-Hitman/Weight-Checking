@@ -1,0 +1,17 @@
+certifi==2021.10.8
+charset-normalizer==2.0.12
+Flask==2.0.2
+gunicorn==20.1.0
+idna==3.3
+joblib==1.1.0
+numpy==1.22.3
+requests==2.27.1
+scikit-learn==1.0.2
+scipy==1.8.0
+sklearn==0.0
+RandomForestRegressor==0.1.0
+threadpoolctl==3.1.0
+urllib3==1.26.8
+Werkzeug==2.0.3
+wincertstore==0.2
+xmltodict==0.12.0
